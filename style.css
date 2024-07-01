@@ -138,7 +138,7 @@ color: #ffff;
     color: #ffff; /* Text color */
     font-weight: bold;
     box-shadow: 0 0 10px #D13E3E;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .contact-button:hover{
@@ -344,6 +344,7 @@ footer{
 
 .footer-logo{
     align-content: center;
+    width: 100px;
 }
 
 #contacts{
@@ -400,6 +401,7 @@ align-items: center;
     font-family:"Roboto Flex", sans-serif;
     color: #D13E3E;
     opacity: 0.5;
+    margin-left: 20px;
 }
 
 #contacts i{
