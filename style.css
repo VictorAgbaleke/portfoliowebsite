@@ -1,7 +1,7 @@
 body{
     background-color:  #1F1F1F;
 }
-.header-wrapper{
+.wrapper{
 width: 1000px;
 margin: 0 auto;
 }
@@ -252,7 +252,6 @@ background-color: #1F1F1F;
     display: flex;
     flex-direction: column;
     justify-content: left;
-
 }
 .main-header-text h1{
     font-family: "Roboto Flex", sans-serif;
