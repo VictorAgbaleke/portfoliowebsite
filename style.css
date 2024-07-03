@@ -403,7 +403,7 @@ footer {
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .header-main-nav ul {
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
     }
 
@@ -419,6 +419,13 @@ footer {
         flex-direction: column;
         gap: 20px;
         margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-header-text{
+        align-items: center;
+        justify-content: center;
     }
 
     .main-header-text h1 {
